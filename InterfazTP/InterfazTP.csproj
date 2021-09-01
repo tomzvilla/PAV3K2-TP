@@ -53,6 +53,18 @@
     <Compile Include="Alta-Mod.Designer.cs">
       <DependentUpon>Alta-Mod.cs</DependentUpon>
     </Compile>
+    <Compile Include="Banco\AltaBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banco\AltaBanco.Designer.cs">
+      <DependentUpon>AltaBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banco\ConsultaBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banco\ConsultaBanco.Designer.cs">
+      <DependentUpon>ConsultaBanco.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusquedaEstacionamiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,12 +77,26 @@
     <Compile Include="IngresoEstacionamiento.Designer.cs">
       <DependentUpon>IngresoEstacionamiento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Local\AltaLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Local\AltaLocal.Designer.cs">
+      <DependentUpon>AltaLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Local\ConsultaLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Local\ConsultaLocal.Designer.cs">
+      <DependentUpon>ConsultaLocal.cs</DependentUpon>
+    </Compile>
     <Compile Include="LugaresLibres.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LugaresLibres.Designer.cs">
       <DependentUpon>LugaresLibres.cs</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="PlantillaBaja.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,16 +115,64 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Producto\AltaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto\AltaProducto.Designer.cs">
+      <DependentUpon>AltaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Producto\ConsultaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto\ConsultaProducto.Designer.cs">
+      <DependentUpon>ConsultaProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rubro\AltaRubro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubro\AltaRubro.Designer.cs">
+      <DependentUpon>AltaRubro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rubro\ConsultarRubro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubro\ConsultarRubro.Designer.cs">
+      <DependentUpon>ConsultarRubro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\ConsultarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\ConsultarVenta.Designer.cs">
+      <DependentUpon>ConsultarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\NuevaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\NuevaVenta.Designer.cs">
+      <DependentUpon>NuevaVenta.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Alta-Mod.resx">
       <DependentUpon>Alta-Mod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banco\AltaBanco.resx">
+      <DependentUpon>AltaBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banco\ConsultaBanco.resx">
+      <DependentUpon>ConsultaBanco.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BusquedaEstacionamiento.resx">
       <DependentUpon>BusquedaEstacionamiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresoEstacionamiento.resx">
       <DependentUpon>IngresoEstacionamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Local\AltaLocal.resx">
+      <DependentUpon>AltaLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Local\ConsultaLocal.resx">
+      <DependentUpon>ConsultaLocal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LugaresLibres.resx">
       <DependentUpon>LugaresLibres.cs</DependentUpon>
@@ -112,6 +186,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Producto\AltaProducto.resx">
+      <DependentUpon>AltaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producto\ConsultaProducto.resx">
+      <DependentUpon>ConsultaProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -121,6 +201,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Rubro\AltaRubro.resx">
+      <DependentUpon>AltaRubro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rubro\ConsultarRubro.resx">
+      <DependentUpon>ConsultarRubro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\ConsultarVenta.resx">
+      <DependentUpon>ConsultarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\NuevaVenta.resx">
+      <DependentUpon>NuevaVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\InterfazTP.csproj.AssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -133,6 +228,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
