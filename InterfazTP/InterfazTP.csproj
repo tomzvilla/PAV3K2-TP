@@ -65,16 +65,16 @@
     <Compile Include="Banco\ConsultaBanco.Designer.cs">
       <DependentUpon>ConsultaBanco.cs</DependentUpon>
     </Compile>
-    <Compile Include="BusquedaEstacionamiento.cs">
+    <Compile Include="Estacionamiento\BusquedaEstacionamiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BusquedaEstacionamiento.Designer.cs">
+    <Compile Include="Estacionamiento\BusquedaEstacionamiento.Designer.cs">
       <DependentUpon>BusquedaEstacionamiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="IngresoEstacionamiento.cs">
+    <Compile Include="Estacionamiento\IngresoEstacionamiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IngresoEstacionamiento.Designer.cs">
+    <Compile Include="Estacionamiento\IngresoEstacionamiento.Designer.cs">
       <DependentUpon>IngresoEstacionamiento.cs</DependentUpon>
     </Compile>
     <Compile Include="Local\AltaLocal.cs">
@@ -89,10 +89,10 @@
     <Compile Include="Local\ConsultaLocal.Designer.cs">
       <DependentUpon>ConsultaLocal.cs</DependentUpon>
     </Compile>
-    <Compile Include="LugaresLibres.cs">
+    <Compile Include="Estacionamiento\LugaresLibres.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LugaresLibres.Designer.cs">
+    <Compile Include="Estacionamiento\LugaresLibres.Designer.cs">
       <DependentUpon>LugaresLibres.cs</DependentUpon>
     </Compile>
     <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
@@ -126,6 +126,18 @@
     </Compile>
     <Compile Include="Producto\ConsultaProducto.Designer.cs">
       <DependentUpon>ConsultaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profesiones\ConsultarProfesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profesiones\ConsultarProfesion.Designer.cs">
+      <DependentUpon>ConsultarProfesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profesiones\NuevaProfesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profesiones\NuevaProfesion.Designer.cs">
+      <DependentUpon>NuevaProfesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -162,10 +174,10 @@
     <EmbeddedResource Include="Banco\ConsultaBanco.resx">
       <DependentUpon>ConsultaBanco.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BusquedaEstacionamiento.resx">
+    <EmbeddedResource Include="Estacionamiento\BusquedaEstacionamiento.resx">
       <DependentUpon>BusquedaEstacionamiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IngresoEstacionamiento.resx">
+    <EmbeddedResource Include="Estacionamiento\IngresoEstacionamiento.resx">
       <DependentUpon>IngresoEstacionamiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Local\AltaLocal.resx">
@@ -174,7 +186,7 @@
     <EmbeddedResource Include="Local\ConsultaLocal.resx">
       <DependentUpon>ConsultaLocal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LugaresLibres.resx">
+    <EmbeddedResource Include="Estacionamiento\LugaresLibres.resx">
       <DependentUpon>LugaresLibres.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlantillaBaja.resx">
@@ -191,6 +203,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Producto\ConsultaProducto.resx">
       <DependentUpon>ConsultaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profesiones\ConsultarProfesion.resx">
+      <DependentUpon>ConsultarProfesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profesiones\NuevaProfesion.resx">
+      <DependentUpon>NuevaProfesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -230,7 +248,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder1\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
