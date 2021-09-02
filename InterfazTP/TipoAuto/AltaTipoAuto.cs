@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace InterfazTP.Automovil
+namespace InterfazTP.TipoAuto
 {
-    public partial class BajaAutomovil : Form
+    public partial class AltaTipoAuto : Form
     {
-        public BajaAutomovil()
+        public AltaTipoAuto()
         {
             InitializeComponent();
         }
