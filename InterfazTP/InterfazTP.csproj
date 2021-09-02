@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>InterfazTP</RootNamespace>
     <AssemblyName>InterfazTP</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,6 +53,24 @@
     </Compile>
     <Compile Include="Alta-Mod.Designer.cs">
       <DependentUpon>Alta-Mod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Automovil\AltaModAutomovil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Automovil\AltaModAutomovil.Designer.cs">
+      <DependentUpon>AltaModAutomovil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Automovil\BajaAutomovil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Automovil\BajaAutomovil.Designer.cs">
+      <DependentUpon>BajaAutomovil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Automovil\ConsultaAutomovil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Automovil\ConsultaAutomovil.Designer.cs">
+      <DependentUpon>ConsultaAutomovil.cs</DependentUpon>
     </Compile>
     <Compile Include="Banco\AltaBanco.cs">
       <SubType>Form</SubType>
@@ -168,6 +187,12 @@
     <EmbeddedResource Include="Alta-Mod.resx">
       <DependentUpon>Alta-Mod.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Automovil\BajaAutomovil.resx">
+      <DependentUpon>BajaAutomovil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Automovil\ConsultaAutomovil.resx">
+      <DependentUpon>ConsultaAutomovil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Banco\AltaBanco.resx">
       <DependentUpon>AltaBanco.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,6 +243,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Rubro\AltaRubro.resx">
       <DependentUpon>AltaRubro.cs</DependentUpon>
