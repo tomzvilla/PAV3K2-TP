@@ -26,5 +26,10 @@ namespace InterfazTP
         {
 
         }
+
+        private void TarjetaAlta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

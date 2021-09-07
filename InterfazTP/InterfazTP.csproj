@@ -84,6 +84,18 @@
     <Compile Include="Banco\ConsultaBanco.Designer.cs">
       <DependentUpon>ConsultaBanco.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clientes\AltaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\AltaCliente.Designer.cs">
+      <DependentUpon>AltaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\ConsultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\ConsultaCliente.Designer.cs">
+      <DependentUpon>ConsultaCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Estacionamiento\BusquedaEstacionamiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +107,12 @@
     </Compile>
     <Compile Include="Estacionamiento\IngresoEstacionamiento.Designer.cs">
       <DependentUpon>IngresoEstacionamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\Informes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\Informes.Designer.cs">
+      <DependentUpon>Informes.cs</DependentUpon>
     </Compile>
     <Compile Include="Local\AltaLocal.cs">
       <SubType>Form</SubType>
@@ -128,11 +146,23 @@
     <Compile Include="PlantillaConsulta.Designer.cs">
       <DependentUpon>PlantillaConsulta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Playa\AltaPlaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Playa\AltaPlaya.Designer.cs">
+      <DependentUpon>AltaPlaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Playa\BajaPlaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Playa\BajaPlaya.Designer.cs">
+      <DependentUpon>BajaPlaya.cs</DependentUpon>
     </Compile>
     <Compile Include="Producto\AltaProducto.cs">
       <SubType>Form</SubType>
@@ -172,6 +202,30 @@
     <Compile Include="Rubro\ConsultarRubro.Designer.cs">
       <DependentUpon>ConsultarRubro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tarjeta\TarjetaAlta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjeta\TarjetaAlta.Designer.cs">
+      <DependentUpon>TarjetaAlta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarjeta\TarjetaConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjeta\TarjetaConsulta.Designer.cs">
+      <DependentUpon>TarjetaConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TipoTarjeta\AltaTipoTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipoTarjeta\AltaTipoTarjeta.Designer.cs">
+      <DependentUpon>AltaTipoTarjeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TipoTarjeta\ConsultaTipoTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipoTarjeta\ConsultaTipoTarjeta.Designer.cs">
+      <DependentUpon>ConsultaTipoTarjeta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventas\ConsultarVenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,11 +253,20 @@
     <EmbeddedResource Include="Banco\ConsultaBanco.resx">
       <DependentUpon>ConsultaBanco.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\AltaCliente.resx">
+      <DependentUpon>AltaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\ConsultaCliente.resx">
+      <DependentUpon>ConsultaCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estacionamiento\BusquedaEstacionamiento.resx">
       <DependentUpon>BusquedaEstacionamiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Estacionamiento\IngresoEstacionamiento.resx">
       <DependentUpon>IngresoEstacionamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\Informes.resx">
+      <DependentUpon>Informes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Local\AltaLocal.resx">
       <DependentUpon>AltaLocal.cs</DependentUpon>
@@ -220,8 +283,14 @@
     <EmbeddedResource Include="PlantillaConsulta.resx">
       <DependentUpon>PlantillaConsulta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Playa\AltaPlaya.resx">
+      <DependentUpon>AltaPlaya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Playa\BajaPlaya.resx">
+      <DependentUpon>BajaPlaya.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Producto\AltaProducto.resx">
       <DependentUpon>AltaProducto.cs</DependentUpon>
@@ -250,6 +319,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rubro\ConsultarRubro.resx">
       <DependentUpon>ConsultarRubro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjeta\TarjetaAlta.resx">
+      <DependentUpon>TarjetaAlta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjeta\TarjetaConsulta.resx">
+      <DependentUpon>TarjetaConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipoTarjeta\AltaTipoTarjeta.resx">
+      <DependentUpon>AltaTipoTarjeta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipoTarjeta\ConsultaTipoTarjeta.resx">
+      <DependentUpon>ConsultaTipoTarjeta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventas\ConsultarVenta.resx">
       <DependentUpon>ConsultarVenta.cs</DependentUpon>

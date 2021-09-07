@@ -126,9 +126,9 @@ namespace InterfazTP
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(43, 149);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 13);
+            this.label5.Size = new System.Drawing.Size(92, 13);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Nro. de Estacionamiento : ";
+            this.label5.Text = "Nro. de Espacio : ";
             // 
             // textBox5
             // 

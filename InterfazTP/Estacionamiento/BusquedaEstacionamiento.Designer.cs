@@ -33,16 +33,16 @@ namespace InterfazTP
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Cancelar = new System.Windows.Forms.Button();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Patente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Hora_desde = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Hora_Hasta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.playa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estacionamiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Cancelar = new System.Windows.Forms.Button();
+            this.Espacio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,41 +83,11 @@ namespace InterfazTP
             this.Hora_desde,
             this.Hora_Hasta,
             this.playa,
-            this.estacionamiento});
+            this.Espacio});
             this.dataGridView1.Location = new System.Drawing.Point(13, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(644, 342);
             this.dataGridView1.TabIndex = 3;
-            // 
-            // Fecha
-            // 
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
-            // 
-            // Patente
-            // 
-            this.Patente.HeaderText = "Patente";
-            this.Patente.Name = "Patente";
-            // 
-            // Hora_desde
-            // 
-            this.Hora_desde.HeaderText = "Hora Desde";
-            this.Hora_desde.Name = "Hora_desde";
-            // 
-            // Hora_Hasta
-            // 
-            this.Hora_Hasta.HeaderText = "Hora Hasta";
-            this.Hora_Hasta.Name = "Hora_Hasta";
-            // 
-            // playa
-            // 
-            this.playa.HeaderText = "Playa";
-            this.playa.Name = "playa";
-            // 
-            // estacionamiento
-            // 
-            this.estacionamiento.HeaderText = "estacionamiento";
-            this.estacionamiento.Name = "estacionamiento";
             // 
             // textBox1
             // 
@@ -151,6 +121,36 @@ namespace InterfazTP
             this.Cancelar.Text = "Cancelar";
             this.Cancelar.UseVisualStyleBackColor = false;
             // 
+            // Fecha
+            // 
+            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.Name = "Fecha";
+            // 
+            // Patente
+            // 
+            this.Patente.HeaderText = "Patente";
+            this.Patente.Name = "Patente";
+            // 
+            // Hora_desde
+            // 
+            this.Hora_desde.HeaderText = "Hora Desde";
+            this.Hora_desde.Name = "Hora_desde";
+            // 
+            // Hora_Hasta
+            // 
+            this.Hora_Hasta.HeaderText = "Hora Hasta";
+            this.Hora_Hasta.Name = "Hora_Hasta";
+            // 
+            // playa
+            // 
+            this.playa.HeaderText = "Playa";
+            this.playa.Name = "playa";
+            // 
+            // Espacio
+            // 
+            this.Espacio.HeaderText = "Espacio";
+            this.Espacio.Name = "Espacio";
+            // 
             // BusquedaEstacionamiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -178,15 +178,15 @@ namespace InterfazTP
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.DirectoryServices.DirectorySearcher directorySearcher1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Cancelar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
         private System.Windows.Forms.DataGridViewTextBoxColumn Patente;
         private System.Windows.Forms.DataGridViewTextBoxColumn Hora_desde;
         private System.Windows.Forms.DataGridViewTextBoxColumn Hora_Hasta;
         private System.Windows.Forms.DataGridViewTextBoxColumn playa;
-        private System.Windows.Forms.DataGridViewTextBoxColumn estacionamiento;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.DirectoryServices.DirectorySearcher directorySearcher1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Cancelar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Espacio;
     }
 }

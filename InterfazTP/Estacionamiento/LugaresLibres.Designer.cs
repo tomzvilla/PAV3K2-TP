@@ -30,9 +30,9 @@ namespace InterfazTP
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Playa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Estacionamiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
+            this.Playa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Espacio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,21 +42,11 @@ namespace InterfazTP
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Playa,
-            this.Estacionamiento});
+            this.Espacio});
             this.dataGridView1.Location = new System.Drawing.Point(14, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(243, 297);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // Playa
-            // 
-            this.Playa.HeaderText = "Playa";
-            this.Playa.Name = "Playa";
-            // 
-            // Estacionamiento
-            // 
-            this.Estacionamiento.HeaderText = "Estacionamiento";
-            this.Estacionamiento.Name = "Estacionamiento";
             // 
             // button1
             // 
@@ -67,6 +57,16 @@ namespace InterfazTP
             this.button1.TabIndex = 1;
             this.button1.Text = "Salir";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // Playa
+            // 
+            this.Playa.HeaderText = "Playa";
+            this.Playa.Name = "Playa";
+            // 
+            // Espacio
+            // 
+            this.Espacio.HeaderText = "Espacio";
+            this.Espacio.Name = "Espacio";
             // 
             // LugaresLibres
             // 
@@ -86,8 +86,8 @@ namespace InterfazTP
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Playa;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Estacionamiento;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Playa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Espacio;
     }
 }
